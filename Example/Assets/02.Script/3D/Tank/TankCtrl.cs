@@ -19,6 +19,8 @@ public class TankCtrl : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         tr = GetComponent<Transform>();
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()

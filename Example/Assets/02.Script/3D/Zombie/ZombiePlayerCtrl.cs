@@ -25,6 +25,8 @@ public class ZombiePlayerCtrl : MonoBehaviour
         tr = GetComponent<Transform>();
         anim = GetComponent<Animator>();
         moveDir = Vector3.zero;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
     // Update is called once per frame

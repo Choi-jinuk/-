@@ -7,6 +7,11 @@ TagManager:
   - Enemy
   - Obstacle
   - Bullet
+  - PlayerEyes
+  - EndLine
+  - EnemyBullet
+  - Scenery
+  - Score
   layers:
   - Default
   - TransparentFX
@@ -43,4 +48,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Map
+    uniqueID: 3588392713
+    locked: 0
+  - name: ForeGround
+    uniqueID: 3101054337
     locked: 0

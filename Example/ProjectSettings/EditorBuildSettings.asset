@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/01.Scenes/MainScene.unity
+    guid: eb08aad43f9ff7f4382fcd5d5ee507e0
+  - enabled: 1
+    path: Assets/01.Scenes/3D/3DTank.unity
+    guid: 1b7fa83bd81934f46b4d23dad2df500d
+  - enabled: 1
+    path: Assets/01.Scenes/3D/3DFPS.unity
+    guid: 4690d4d660765c9489d07d2ad364c315
+  - enabled: 1
+    path: Assets/01.Scenes/3D/3DTPS.unity
+    guid: cb5c0b201ff20104cbe97a6d8aff2d64
+  - enabled: 1
+    path: Assets/01.Scenes/3D/3DZombie.unity
+    guid: cdb49768a5e509942bd6a5424c28e678
+  - enabled: 1
+    path: Assets/01.Scenes/2D/2DFluppyBird.unity
+    guid: 00fab7696ec89f44aacdf90deb655ca5
+  - enabled: 1
+    path: Assets/01.Scenes/2D/2DShooting.unity
+    guid: a6abf4e7d883c9a47a21310a162981d9
   m_configObjects: {}

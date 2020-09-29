@@ -7,6 +7,8 @@ public class TPSCameraCtrl : MonoBehaviour
     public Transform target;
     void Start()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
     }
     void Update()
     {

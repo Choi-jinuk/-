@@ -25,6 +25,8 @@ public class FPSPlayerCtrl : MonoBehaviour
         MoveDir = Vector3.zero;
         controller = GetComponent<CharacterController>();
         tr = GetComponent<Transform>();
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
     // Update is called once per frame
